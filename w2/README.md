@@ -1,6 +1,6 @@
 # Justin's Day
 ## Plan of the Day Monday 18 August 2025
----
+
 ### Morning
     1. 0600 Wake up :tired_face:
     2. 0630 Get kids ready for school :school:
@@ -20,4 +20,3 @@
 ### Evening
     1. Make kids dinner :spaghetti:
     2. knock them out :city_sunset:
----
