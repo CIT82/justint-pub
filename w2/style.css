@@ -1,0 +1,22 @@
+:root {
+    background-color: #f2f4f8;
+
+
+}
+h1,h2 {
+    display:flex;
+    justify-content: center; 
+}
+.picture {
+    display: flex;
+    justify-content: center;
+}
+#me {
+    border-radius: 50%;
+}
+
+p {
+    text-align: center;
+    line-height: 1.8;
+    padding: 2em 10% 2em 10%;
+}
