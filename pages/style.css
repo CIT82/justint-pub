@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(176, 117, 231);
+    color: rgb(185, 183, 183);
+    padding: 10px 0;
+    /* border: 10px red dashed; */
+}
+
+main{
+    margin: 15px;
+    padding: 15px;
+    background-color: aliceblue;
+}
+footer {
+    background-color: #289ad3;
+    color: white;
+    padding: 10 px 0;
+}
+
+label {
+    display: block;
+}
+.outline{
+    border: 1px black solid;
+}
+
+#sandw{
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+#fruit {
+    border-radius: 8px;
+    max-width: 80%;
+
+}
