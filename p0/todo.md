@@ -1,9 +1,9 @@
 # To-Do List for P0 Site
 
-- [ ] Update Favicon  
-- [ ] Add website logo 
-- [ ] Determine and impliment color scheme 
-- [ ] Decide what in the footer can be changed or removed  
+- [X] Update Favicon  
+- [X] Add website logo 
+- [X] Determine and impliment color scheme 
+- [X] Decide what in the footer can be changed or removed  
 - [ ] Create a wireframe for the homepage  
 - [ ] Create a plan of action for building subpages  
 - [ ] Build News subpage with unique content and image  
