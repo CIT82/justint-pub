@@ -1,389 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>LBCruising</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>LBCruising</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <!-- Favicons -->
+    <link href="./assets/img/lbc_favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="./assets/img/lbc_favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
+    <!-- =======================================================
   * Template Name: Story
   * Template URL: https://bootstrapmade.com/story-bootstrap-blog-template/
   * Updated: Aug 11 2025 with Bootstrap v5.3.7
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-</head>
+  </head>
 
-<body class="index-page">
+  <body class="index-page">
+    <header
+      id="header"
+      class="header d-flex align-items-center position-relative"
+    >
+      <div
+        class="container position-relative d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-xl-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="./assets/img/lblogo.png" alt="LBCruising" />
+          <!-- <h1 class="sitename">Story</h1> -->
+        </a>
 
-  <header id="header" class="header d-flex align-items-center position-relative">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="./assets/img/lblogo.png" alt="LBCruising">
-        <!-- <h1 class="sitename">Story</h1> -->
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li class="dropdown"><a href="#"><span>Cruise Info</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="./ships.html">Ship Overview</a></li>
-              <li><a href="./itineraries.html">Itineraries</a></li>
-              <li><a href="./ports.html">Ports of Call</a></li>
-            </ul>
-           </li>
-             <li class="dropdown"><a href="./planning.html"><span>Planning & tips</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="./first-time.html">First-Time Cruisers</a></li>
-              <li><a href="./packing.html">Packing Guide</a></li>
-              <li><a href="./onboard.html">Onboard Life</a></li>
-              <li><a href="./money.html">Money & Extras</a></li>
-            </ul>
-           </li>          
-          <li><a href="./blog.html">Blog</a></li>
-          <li><a href="./contact.html">Contact us</a></li>
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Cruise Info</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="./ships.html">Ship Overview</a></li>
+                <li><a href="./itineraries.html">Itineraries</a></li>
+                <li><a href="./ports.html">Ports of Call</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="./planning.html"
+                ><span>Planning & tips</span>
+                <i class="bi bi-chevron-down toggle-dropdown"></i
+              ></a>
+              <ul>
+                <li><a href="./first-time.html">First-Time Cruisers</a></li>
+                <li><a href="./packing.html">Packing Guide</a></li>
+                <li><a href="./onboard.html">Onboard Life</a></li>
+                <li><a href="./money.html">Money & Extras</a></li>
+              </ul>
+            </li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./contact.html">Contact us</a></li>
           </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>        
-      </nav>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
 
-      <div class="header-social-links">
-        <a href="https://x.com/" class="twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
-        <a href="https://www.facebook.com/" class="facebook" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="https://www.instagram.com/" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
-        <a href="https://www.linkedin.com/" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <div class="header-social-links">
+          <a href="https://x.com/" class="twitter" target="_blank"
+            ><i class="bi bi-twitter-x"></i
+          ></a>
+          <a href="https://www.facebook.com/" class="facebook" target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/" class="instagram" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://www.linkedin.com/" class="linkedin" target="_blank"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+        </div>
       </div>
+    </header>
 
-    </div>
-  </header>
+    <main class="main">
+      <!-- Featured Posts Section -->
+      <section id="featured-posts" class="featured-posts section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <span class="description-title">Itineraries</span>
+          <h2>Itineraries</h2>
+          <p>
+            Carnival ships homeported in Long Beach sail fun-packed itineraries
+            to Mexico, ranging from 3-day weekend getaways to week-long
+            adventures. Browse the options below to find your perfect cruise
+            length and destination
+          </p>
+        </div>
+        <!-- End Section Title -->
 
-  <main class="main"> 
-
-       <!-- Featured Posts Section -->
-    <section id="featured-posts" class="featured-posts section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <span class="description-title">Itineraries</span>
-        <h2>Itineraries</h2>
-        <p>Carnival ships homeported in Long Beach sail fun-packed itineraries to Mexico, ranging from 3-day weekend getaways to week-long adventures. Browse the options below to find your perfect cruise length and destination</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="blog-posts-slider swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 4500
-              },
-              "slidesPerView": 1,
-              "spaceBetween": 40,
-              "centeredSlides": true,
-              "breakpoints": {
-                "768": {
-                  "slidesPerView": 1.5,
-                  "spaceBetween": 30
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="blog-posts-slider swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 4500,
+                  "disableOnInteraction": false
                 },
-                "1200": {
-                  "slidesPerView": 2.2,
-                  "spaceBetween": 40
+                "slidesPerView": 1,
+                "spaceBetween": 40,
+                "centeredSlides": true,
+                "watchOverflow": false,
+                "loopAdditionalSlides": 5,
+                "breakpoints": {
+                  "768": {
+                    "slidesPerView": 1.8,
+                    "spaceBetween": 30
+                  },
+                  "1200": {
+                    "slidesPerView": 2,
+                    "spaceBetween": 40
+                  }
+                },
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "clickable": true
                 }
-              },
-              "pagination": {
-                "el": ".swiper-pagination",
-                "clickable": true
               }
-            }
-          </script>
+            </script>
 
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <article class="blog-card">
-                <div class="blog-image">
-                  <img src="./assets/img/c_ship_as.png" alt="Blog Image" loading="lazy">
-                  <div class="category-badge">Affordable</div>
-                </div>
-                <div class="blog-content">
-                  <div class="author-info">
-                    <!-- <img src="assets/img/person/person-f-8.webp" alt="Author" class="author-avatar">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <article class="blog-card">
+                  <div class="blog-image">
+                    <img
+                      src="./assets/img/c_ship_as.png"
+                      alt="Blog Image"
+                      loading="lazy"
+                    />
+                    <div class="category-badge">Affordable</div>
+                  </div>
+                  <div class="blog-content">
+                    <div class="author-info">
+                      <!-- <img src="assets/img/person/person-f-8.webp" alt="Author" class="author-avatar">
                     <div class="author-details">
                       <span class="author-name">Rebecca Martinez</span>
                       <span class="publish-date">February 8, 2025</span>
                     </div> -->
+                    </div>
+                    <h3>
+                      <a
+                        href="https://www.carnival.com/itinerary/3-day-baja-mexico-cruise/long-beach-los-angeles/firenze/3-days/lay"
+                        >3-Day Baja Mexico</a
+                      >
+                    </h3>
+                    <p>Perfect quick getaway for a long weekend</p>
+                    <div class="blog-footer">
+                      <a
+                        href="https://www.carnival.com/itinerary/3-day-baja-mexico-cruise/long-beach-los-angeles/firenze/3-days/lay"
+                        class="btn-read-more"
+                      >
+                        <span>Learn More!</span>
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
                   </div>
-                  <h3><a href="https://www.carnival.com/itinerary/3-day-baja-mexico-cruise/long-beach-los-angeles/firenze/3-days/lay">3-Day Baja Mexico</a></h3>
-                  <p>Perfect quick getaway for a long weekend</p>
-                  <div class="blog-footer">
-                      <a href="https://www.carnival.com/itinerary/3-day-baja-mexico-cruise/long-beach-los-angeles/firenze/3-days/lay" class="btn-read-more">
-                      <span>Learn More!</span>
-                      <i class="bi bi-arrow-right"></i>
-                    </a>
+                </article>
+              </div>
+              <!-- End slide item -->
+
+              <div class="swiper-slide">
+                <article class="blog-card">
+                  <div class="blog-image">
+                    <img
+                      src="assets/img/c_rad_ip_en.png"
+                      alt="Blog Image"
+                      loading="lazy"
+                    />
+                    <div class="category-badge">relaxing</div>
                   </div>
-                </div>
-              </article>
-            </div><!-- End slide item -->
-
-            
-
-            <div class="swiper-slide">
-              <article class="blog-card">
-                <div class="blog-image">
-                  <img src="assets/img/c_rad_ip_en.png" alt="Blog Image" loading="lazy">
-                  <div class="category-badge">relaxing</div>
-                </div>
-                <div class="blog-content">
-                  <!-- <div class="author-info">
+                  <div class="blog-content">
+                    <!-- <div class="author-info">
                     <img src="assets/img/person/person-m-12.webp" alt="Author" class="author-avatar">
                     <div class="author-details">
                       <span class="author-name">Alexander Thompson</span>
                       <span class="publish-date">February 12, 2025</span>
                     </div>
                   </div> -->
-                  <h3><a href="https://www.carnival.com/itinerary/4-day-baja-mexico-cruise/long-beach-los-angeles/firenze/4-days/lx5">4-Day Baja Mexico</a></h3>
-                  <p>From island adventures to Baja nights, a short cruise with big memories.</p>
-                  <div class="blog-footer">
-                    <div class="reading-time">
-                      <i class="bi"></i>
-                      <span></span>
+                    <h3>
+                      <a
+                        target="_blank"
+                        href="https://www.carnival.com/itinerary/4-day-baja-mexico-cruise/long-beach-los-angeles/firenze/4-days/lx5"
+                        >4-Day Baja Mexico</a
+                      >
+                    </h3>
+                    <p>
+                      From island adventures to Baja nights, a short cruise with
+                      big memories.
+                    </p>
+                    <div class="blog-footer">
+                      <div class="reading-time">
+                        <i class="bi"></i>
+                        <span></span>
+                      </div>
+                      <a
+                        target="_blank"
+                        href="https://www.carnival.com/itinerary/4-day-baja-mexico-cruise/long-beach-los-angeles/firenze/4-days/lx5"
+                        class="btn-read-more"
+                      >
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
                     </div>
-                    <a href="https://www.carnival.com/itinerary/4-day-baja-mexico-cruise/long-beach-los-angeles/firenze/4-days/lx5" class="btn-read-more">
-                      <span>Learn More</span>
-                      <i class="bi bi-arrow-right"></i>
-                    </a>
                   </div>
-                </div>
-              </article>
-            </div><!-- End slide item -->
+                </article>
+              </div>
+              <!-- End slide item -->
 
-            <div class="swiper-slide">
-              <article class="blog-card">
-                <div class="blog-image">
-                  <img src="assets/img/blog/blog-post-square-1.webp" alt="Blog Image" loading="lazy">
-                  <div class="category-badge">Business</div>
-                </div>
-                <div class="blog-content">
-                  <div class="author-info">
-                    <img src="assets/img/person/person-f-3.webp" alt="Author" class="author-avatar">
-                    <div class="author-details">
+              <div class="swiper-slide">
+                <article class="blog-card">
+                  <div class="blog-image">
+                    <img
+                      src="assets/img/c_ship_pan_ip_cabo.png"
+                      alt="Blog Image"
+                      loading="lazy"
+                    />
+                    <div class="category-badge">party boat</div>
+                  </div>
+                  <div class="blog-content">
+                    <div class="author-info">
+                      <!-- <img src="assets/img/person/person-f-3.webp" alt="Author" class="author-avatar"> -->
+                      <!-- <div class="author-details">
                       <span class="author-name">Sophia Williams</span>
                       <span class="publish-date">February 15, 2025</span>
+                    </div> -->
+                    </div>
+                    <h3>
+                      <a
+                        href="https://www.carnival.com/itinerary/7-day-mexican-riviera-cruise/long-beach-los-angeles/panorama/7-days/mxh?sailDate=09132026"
+                        >7-Day Mexican Riviera</a
+                      >
+                    </h3>
+                    <p>
+                      A full week of adventure along Mexico’s most iconic
+                      coastal cities.
+                    </p>
+                    <div class="blog-footer">
+                      <div class="reading-time">
+                        <i class="bi"></i>
+                        <span></span>
+                      </div>
+                      <a
+                        href="https://www.carnival.com/itinerary/7-day-mexican-riviera-cruise/long-beach-los-angeles/panorama/7-days/mxh?sailDate=09132026"
+                        class="btn-read-more"
+                      >
+                        <span>Learn More</span>
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
                     </div>
                   </div>
-                  <h3><a href="#">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</a></h3>
-                  <p>Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum ac turpis.</p>
-                  <div class="blog-footer">
-                    <div class="reading-time">
-                      <i class="bi bi-clock"></i>
-                      <span>3 min read</span>
-                    </div>
-                    <a href="#" class="btn-read-more">
-                      <span>Continue Reading</span>
-                      <i class="bi bi-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div><!-- End slide item -->
-
-            <div class="swiper-slide">
-              <article class="blog-card">
-                <div class="blog-image">
-                  <img src="assets/img/blog/blog-post-square-5.webp" alt="Blog Image" loading="lazy">
-                  <div class="category-badge">Lifestyle</div>
-                </div>
-                <div class="blog-content">
-                  <div class="author-info">
-                    <img src="assets/img/person/person-m-7.webp" alt="Author" class="author-avatar">
-                    <div class="author-details">
-                      <span class="author-name">Michael Chen</span>
-                      <span class="publish-date">February 18, 2025</span>
-                    </div>
-                  </div>
-                  <h3><a href="#">Excepteur sint occaecat cupidatat non proident sunt in culpa qui</a></h3>
-                  <p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante etiam sit amet orci eget eros faucibus tincidunt.</p>
-                  <div class="blog-footer">
-                    <div class="reading-time">
-                      <i class="bi bi-clock"></i>
-                      <span>6 min read</span>
-                    </div>
-                    <a href="#" class="btn-read-more">
-                      <span>Continue Reading</span>
-                      <i class="bi bi-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div><!-- End slide item -->
-
-            <div class="swiper-slide">
-              <article class="blog-card">
-                <div class="blog-image">
-                  <img src="assets/img/blog/blog-post-square-9.webp" alt="Blog Image" loading="lazy">
-                  <div class="category-badge">Marketing</div>
-                </div>
-                <div class="blog-content">
-                  <div class="author-info">
-                    <img src="assets/img/person/person-f-11.webp" alt="Author" class="author-avatar">
-                    <div class="author-details">
-                      <span class="author-name">Elena Rodriguez</span>
-                      <span class="publish-date">February 21, 2025</span>
-                    </div>
-                  </div>
-                  <h3><a href="#">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</a></h3>
-                  <p>Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin lorem quis bibendum magna.</p>
-                  <div class="blog-footer">
-                    <div class="reading-time">
-                      <i class="bi bi-clock"></i>
-                      <span>4 min read</span>
-                    </div>
-                    <a href="#" class="btn-read-more">
-                      <span>Continue Reading</span>
-                      <i class="bi bi-arrow-right"></i>
-                    </a>
-                  </div>
-                </div>
-              </article>
-            </div><!-- End slide item -->
-          </div>
-
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Featured Posts Section -->
-
-
-  </main>
-
-  <footer id="footer" class="footer position-relative light-background">
-
-    <div class="container">
-      <div class="row gy-5">
-
-        <div class="col-lg-4">
-          <div class="footer-brand">
-            <a href="index.html" class="logo d-flex align-items-center mb-3">
-              <span class="sitename">LBCruising</span>
-            </a>
-            <p class="tagline">Your guide to cruising adventures from Long Beach and beyond.</p>
-
-            <div class="social-links mt-4">
-              <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-              <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-              <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-              <a href="https://x.com/" aria-label="Twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                </article>
+              </div>
+              <!-- End slide item -->
             </div>
+
+            <div class="swiper-pagination"></div>
           </div>
         </div>
+      </section>
+      <!-- /Featured Posts Section -->
+    </main>
 
-        <div class="col-lg-6">
-          <div class="footer-links-grid">
-            <div class="row">
-              <div class="col-6 col-md-4">
-                <h5>Cruise info</h5>
-                <ul class="list-unstyled">
-                  <li><a href="./ships.html">Ship Overview</a></li>
-                  <li><a href="./itineraries.html">Itineraries</a></li>
-                  <li><a href="./ports.html">Ports of Call</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-4">
-                <h5>Planning & Tips</h5>
-                <ul class="list-unstyled">
-                  <li><a href="./first-time.html">First-Time Cruisers</a></li>
-                  <li><a href="./packing.html">Packing Guide</a></li>
-                  <li><a href="./onboard.html">Onboard Life</a></li>
-                  <li><a href="./money.html">Money & Extras</a></li>
-                </ul>
-              </div>
-              <div class="col-6 col-md-4">
-                <h5>Blog</h5>
-                <ul class="list-unstyled">
-                  <li><a href="./updates.html">Cruise Updates</a></li>
-                  <li><a href="./experiences.html">My Cruise Experiences</a></li>
-                  <li><a href="./excursions.html">Excursion Reviews</a></li>
-                  <li><a href="./contact.html">Contact Us</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-2">
-          <div class="footer-cta">
-            <h5>Let's Connect</h5>
-            <a href="./contact.html" class="btn btn-outline">Get in Touch</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="footer-bottom">
+    <footer id="footer" class="footer position-relative light-background">
       <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="footer-bottom-content">
-              <p class="mb-0">© <strong>LBCruising</strong>. All rights reserved.</p>
-              <a href="./sitemap.html" class="btn btn-outline">Sitemap</a>
-              <div class="credits">
-                <!-- All the links in the footer should remain intact. -->
-                <!-- You can delete the links only if you've purchased the pro version. -->
-                <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        <div class="row gy-5">
+          <div class="col-lg-4">
+            <div class="footer-brand">
+              <a href="index.html" class="logo d-flex align-items-center mb-3">
+                <span class="sitename">LBCruising</span>
+              </a>
+              <p class="tagline">
+                Your guide to cruising adventures from Long Beach and beyond.
+              </p>
+
+              <div class="social-links mt-4">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  aria-label="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  aria-label="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  aria-label="LinkedIn"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a href="https://x.com/" aria-label="Twitter" target="_blank"
+                  ><i class="bi bi-twitter-x"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="footer-links-grid">
+              <div class="row">
+                <div class="col-6 col-md-4">
+                  <h5>Cruise info</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="./ships.html">Ship Overview</a></li>
+                    <li><a href="./itineraries.html">Itineraries</a></li>
+                    <li><a href="./ports.html">Ports of Call</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-4">
+                  <h5>Planning & Tips</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="./first-time.html">First-Time Cruisers</a></li>
+                    <li><a href="./packing.html">Packing Guide</a></li>
+                    <li><a href="./onboard.html">Onboard Life</a></li>
+                    <li><a href="./money.html">Money & Extras</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-4">
+                  <h5>Blog</h5>
+                  <ul class="list-unstyled">
+                    <li><a href="./updates.html">Cruise Updates</a></li>
+                    <li>
+                      <a href="./experiences.html">My Cruise Experiences</a>
+                    </li>
+                    <li><a href="./excursions.html">Excursion Reviews</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <div class="footer-cta">
+              <h5>Let's Connect</h5>
+              <a href="./contact.html" class="btn btn-outline">Get in Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="footer-bottom-content">
+                <p class="mb-0">
+                  © <strong>LBCruising</strong>. All rights reserved.
+                </p>
+                <a href="./sitemap.html" class="btn btn-outline">Sitemap</a>
+                <div class="credits">
+                  <!-- All the links in the footer should remain intact. -->
+                  <!-- You can delete the links only if you've purchased the pro version. -->
+                  <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                  <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                  Designed by
+                  <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
 
-  </footer>
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Preloader -->
+    <div id="preloader"></div>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
