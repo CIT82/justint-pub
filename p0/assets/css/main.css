@@ -13,6 +13,17 @@
 # Help: https://bootstrapmade.com/color-system/
 --------------------------------------------------------------*/
 /* Fonts */
+
+.btn-navy {
+  background-color: #1F3A93;  /* Midnight Navy */
+  color: #fff;               /* White text */
+  border: none;
+}
+.btn-navy:hover {
+  background-color: #162d6e; /* Slightly darker on hover */
+  color: #fff;
+}
+
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Montserrat",  sans-serif;
