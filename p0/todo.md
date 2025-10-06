@@ -16,4 +16,8 @@
 - [X] Update navigation menu to link correctly to new subpages    
 - [ ] Test site for responsive design across devices  
 - [ ] Verify all links work correctly  
-- [ ] Update metadata (description, keywords) for SEO  
+- [ ] Update metadata (description, keywords) for SEO
+- [ ] Manually grade with rubric
+- [ ] Ask AI to grade with rubric 
+
+
